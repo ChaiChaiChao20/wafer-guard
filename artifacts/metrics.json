@@ -1,0 +1,156 @@
+{
+  "seed": 1337,
+  "device": "cpu",
+  "model": "WaferGuardSAE",
+  "best_epoch": 3,
+  "features": 1185,
+  "training": {
+    "rows": 1096,
+    "defects": 78,
+    "prevalence": 0.07116788321167883,
+    "start": "2008-07-19T11:55:00+00:00",
+    "end": "2008-09-26T02:26:00+00:00"
+  },
+  "validation": {
+    "rows": 235,
+    "defects": 17,
+    "prevalence": 0.07234042553191489,
+    "start": "2008-09-26T03:12:00+00:00",
+    "end": "2008-10-05T18:59:00+00:00",
+    "threshold_selection": "maximum validation F2; ties prefer precision then higher threshold",
+    "selected_threshold": 0.05295081064105034,
+    "average_precision": 0.08351848706677144
+  },
+  "test": {
+    "precision": 0.043478260869565216,
+    "recall": 0.5555555555555556,
+    "f1": 0.08064516129032258,
+    "f2": 0.16556291390728475,
+    "tn": 117,
+    "fp": 110,
+    "fn": 4,
+    "tp": 5,
+    "average_precision": 0.08421516553953001,
+    "roc_auc": 0.6162506118453255,
+    "prevalence": 0.038135593220338986,
+    "threshold": 0.05295081064105034,
+    "rows": 236,
+    "defects": 9,
+    "start": "2008-10-05T19:45:00+00:00",
+    "end": "2008-10-17T06:07:00+00:00"
+  },
+  "dataset": {
+    "rows": 1567,
+    "sensors": 590,
+    "defects": 104,
+    "prevalence": 0.06636885768985322,
+    "legacy_rows": 146
+  },
+  "history": [
+    {
+      "epoch": 1.0,
+      "loss": 1.3534435199366674,
+      "reconstruction_loss": 0.35359956986374325,
+      "classification_loss": 1.2650436295403376,
+      "validation_average_precision": 0.08148925807839592
+    },
+    {
+      "epoch": 2.0,
+      "loss": 0.9898830420441098,
+      "reconstruction_loss": 0.34044649369186825,
+      "classification_loss": 0.9047714273134867,
+      "validation_average_precision": 0.08033424939165967
+    },
+    {
+      "epoch": 3.0,
+      "loss": 0.6673195759455363,
+      "reconstruction_loss": 0.3325950288110309,
+      "classification_loss": 0.5841708133618037,
+      "validation_average_precision": 0.08351848706677144
+    },
+    {
+      "epoch": 4.0,
+      "loss": 0.4432888544268078,
+      "reconstruction_loss": 0.35373591383298236,
+      "classification_loss": 0.35485487762424683,
+      "validation_average_precision": 0.07553030724890016
+    },
+    {
+      "epoch": 5.0,
+      "loss": 0.25610659395654994,
+      "reconstruction_loss": 0.32711107697751785,
+      "classification_loss": 0.17432882264256477,
+      "validation_average_precision": 0.07733914124847553
+    },
+    {
+      "epoch": 6.0,
+      "loss": 0.2114576552477148,
+      "reconstruction_loss": 0.32224291066328686,
+      "classification_loss": 0.1308969250983662,
+      "validation_average_precision": 0.07405093606344268
+    },
+    {
+      "epoch": 7.0,
+      "loss": 0.12047757829229037,
+      "reconstruction_loss": 0.320816801653968,
+      "classification_loss": 0.040273378137499094,
+      "validation_average_precision": 0.07428617133318922
+    },
+    {
+      "epoch": 8.0,
+      "loss": 0.1258890972369247,
+      "reconstruction_loss": 0.3293788664870792,
+      "classification_loss": 0.043544380770375334,
+      "validation_average_precision": 0.0746962517186164
+    },
+    {
+      "epoch": 9.0,
+      "loss": 0.09280318063166407,
+      "reconstruction_loss": 0.3166426453325484,
+      "classification_loss": 0.013642519764188264,
+      "validation_average_precision": 0.07209985362466305
+    },
+    {
+      "epoch": 10.0,
+      "loss": 0.08321179697910945,
+      "reconstruction_loss": 0.31479253205988145,
+      "classification_loss": 0.004513664390995271,
+      "validation_average_precision": 0.07258635247954506
+    },
+    {
+      "epoch": 11.0,
+      "loss": 0.08504270141323407,
+      "reconstruction_loss": 0.31253933244281346,
+      "classification_loss": 0.006907867452052112,
+      "validation_average_precision": 0.07631085118391412
+    },
+    {
+      "epoch": 12.0,
+      "loss": 0.07994622695777151,
+      "reconstruction_loss": 0.30982306434048545,
+      "classification_loss": 0.002490461163688451,
+      "validation_average_precision": 0.07683719096556504
+    },
+    {
+      "epoch": 13.0,
+      "loss": 0.08063414237565464,
+      "reconstruction_loss": 0.31313475635316634,
+      "classification_loss": 0.0023504540408288855,
+      "validation_average_precision": 0.08004602302062741
+    },
+    {
+      "epoch": 14.0,
+      "loss": 0.08079493873649174,
+      "reconstruction_loss": 0.3150172879298528,
+      "classification_loss": 0.0020406175010268474,
+      "validation_average_precision": 0.0785075991304811
+    },
+    {
+      "epoch": 15.0,
+      "loss": 0.07833198871877459,
+      "reconstruction_loss": 0.30785608457194436,
+      "classification_loss": 0.001367967197438702,
+      "validation_average_precision": 0.07696175882735105
+    }
+  ]
+}

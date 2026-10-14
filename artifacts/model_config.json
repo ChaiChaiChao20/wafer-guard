@@ -1,0 +1,6 @@
+{
+  "model": "WaferGuardSAE",
+  "input_features": 1185,
+  "hidden": 128,
+  "latent": 24
+}
